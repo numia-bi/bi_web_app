@@ -3,7 +3,7 @@ services:
     name: mrr-dashboard
     env: node
     buildCommand: npm install && npm run build
-    startCommand: npm run preview
+    startCommand: npm run start
     envVars:
       - key: NODE_ENV
         value: production
